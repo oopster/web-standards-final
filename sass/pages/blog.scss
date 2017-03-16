@@ -1,0 +1,14 @@
+.date {
+  background-color: $cape-cod;
+  color: $tital-white;
+  padding: 5px;
+}
+
+.post {
+  margin: 20px 0 40px;
+  border-bottom: 1px dashed $coral-reef;
+}
+
+.post p:nth-child(3) {
+  text-indent: 1em !important;
+}

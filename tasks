@@ -28,7 +28,7 @@
  +[] All of the posts you create should each be assigned 2 categories
  +[] You should have an `archives` page
  +[] Your menu (_main na_v) should be dynamic and styled with CSS
- +[] Your theme should have a `footer` on each page
+ +[x] Your theme should have a `footer` on each page
  +[] Check to make sure you have no errors in your finished theme (_when viewing in Chrome console_)
  +[] Add a favicon
  +[] (Bonus) - Your `single.php` has a working comments section

@@ -1,0 +1,70 @@
+.container {
+  color           : $steel-gray;
+  border-color    : $dolphin;
+  border-width    : .1em;
+  border-style    : solid;
+  border-top-width: 0;
+  line-height     : 1.8em;
+}
+.content-container {
+  padding         : 2em 10%;
+  background-color: $almond;
+  overflow: auto;
+}
+header {
+    background-image   : url('../img/guitarist.gif');
+    background-repeat  : no-repeat;
+    background-position: bottom right;
+    border-width       : .1em;
+    border-style       : solid;
+    border-bottom-width: 0;
+}
+
+#about header {
+    background-image: url('../img/lineup.gif');
+}
+
+#photos header {
+    background-image: url('../img/basshead.gif');
+}
+
+#live header {
+    background-image: url('../img/bassist.gif');
+}
+
+#contact header {
+    background-image: url('../img/drummer.gif');
+}
+
+#content img {
+    border-width : .1em;
+    border-style : solid;
+    outline-width: .1em;
+    outline-style: solid;
+}
+
+#imagegallery li {
+    display: inline;
+}
+
+#slideshow {
+    width   : 150px;
+    height  : 150px;
+    position: relative;
+    overflow: hidden;
+}
+
+img#frame {
+    position     : absolute;
+    top          : 0;
+    left         : 0;
+    z-index      : 99;
+    border-width : 0;
+    outline-width: 0;
+}
+
+img#preview {
+    position     : absolute;
+    border-width : 0;
+    outline-width: 0;
+}

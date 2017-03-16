@@ -1,0 +1,93 @@
+/* research box-size property */
+html {
+    box-sizing: border-box;
+    font-size : 16px;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+
+body {
+    color                : $texas-rose;
+    background-color     : $tuna;
+    font-size            : 1em;
+    margin               : 1em 10%;
+    background-image     : url('../img/background.gif');
+    background-attachment: fixed;
+    background-position  : top left;
+    background-repeat    : repeat-x;
+    max-width            : 80em;
+    font-size            : .75rem;
+    font-family          : 'Helvetica', 'Arial', sans-serif;
+}
+
+h1 {
+    font-family: 'Open Sans';
+    // font       : 2.4em normal;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    // font       : 1.8em normal;
+    margin-top : 1em;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    // font       : 1.4em normal;
+    margin-top : 1em;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+    font-weight    : bold;
+    text-decoration: none;
+}
+
+a:link {
+    color           : $gun-powder;
+    background-color: $porche;
+}
+
+a:visited {
+    color           : $pickeled-bluewood;
+    background-color: $porche;
+}
+
+a:hover {
+    color           : $dolphin;
+    background-color: $texas-rose;
+}
+
+a:active {
+    color           : $storm-gray;
+    background-color: $flax;
+}
+
+dl {
+    overflow: hidden;
+}
+
+dt {
+    float: left;
+}
+
+dd {
+    float: left;
+}
+
+dt {
+    margin-right: 1em;
+}
+
+dd {
+    margin-right: 3em;
+}

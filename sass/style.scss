@@ -1,0 +1,29 @@
+// @import 'susy';
+// bootstrap stuff
+// layout
+$enable-flex: true;
+$enable-grid-classes: true;
+
+@import './bootstrap/scss/_variables.scss';
+@import './bootstrap/scss/_mixins.scss';
+@import './bootstrap/scss/_reboot.scss';
+@import './bootstrap/scss/_grid.scss';
+
+// bootstrap buttons
+@import './bootstrap/scss/_buttons.scss';
+
+// forms
+@import './bootstrap/scss/_forms.scss';
+
+
+// custom styles
+@import 'variables';
+@import 'base';
+@import 'nav';
+@import 'color';
+@import 'layout';
+@import 'typography';
+@import 'forms';
+@import 'footer';
+@import 'pages/default-page';
+@import 'pages/blog';
